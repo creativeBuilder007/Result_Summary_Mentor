@@ -1,0 +1,181 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.main_container {
+    margin-top: 10%;
+    padding-top: 2px;
+    padding-bottom: 2px;;
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.score_display {
+    /* display: inline-block; */
+    width: 50%;
+    background-color: #4834f4;
+    border-radius: 7%;
+    padding-top: 2%;
+    box-shadow: 0 0px 0px 0 rgb(142, 137, 137), 0px 1px 5px 0 rgb(224, 220, 220);
+
+}
+.circle {
+    width: 50%;
+    /* height: 50%; */
+    margin: auto;
+    border-radius: 100%;
+    background-color: #4530e5;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(74, 73, 73, 0.19), 0 6px 20px 0 rgba(57, 56, 56, 0.2);
+}
+.scored_Marks {
+    color: white;
+    font-size: 300%;
+    margin-bottom: 0;
+}
+.Total_Marks {
+    margin-top: 0;
+    color: lightgray;
+    font-size: 75%;
+    margin-bottom: 20%;
+}
+.performance {
+    margin-top: 10%;
+    color: white;
+}
+.performance_Desc {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 10%;
+    color: lightgray;
+    left: 2%;
+    font-size: 90%;
+}
+.summary_display {
+    position: absolute;
+    /* display: inline-block; */
+    width: 50%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    border-radius: 5%;
+    box-shadow: 0 0px 0px 0 rgb(142, 137, 137), 1px 1px 5px 0 rgb(224, 220, 220);
+
+}
+.Reaction {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    background-color: #fce6dd;
+    /* border-radius: 5%; */
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 4%;
+}
+.Reaction_Desc {
+    color: #db6e6c;
+    display: inline;
+    margin-left: 2%;
+    margin-right: 40%;
+}
+.Reaction_Marks {
+    display: inline;
+}
+.Memory {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    background-color: #fff1c9;
+    /* border-radius: 5%; */
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 4%;
+}
+.Memory_Desc {
+    color: #fabc48;
+    display: inline;
+    margin-left: 2%;
+    margin-right: 40%;
+}
+.Memory_Marks {
+    display: inline;
+}
+.Verbal {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    background-color: #d7fffd;
+    /* border-radius: 5%; */
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 4%;
+}
+.Verbal_Desc {
+    color: #20a682;
+    display: inline;
+    margin-left: 3%;
+    margin-right: 48%;
+}
+.Verbal_Marks {
+    display: inline;
+}
+.Visual {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    background-color: #ccd0fc;
+    /* border-radius: 5%; */
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    padding: 4%;
+}
+.Visual_Desc {
+    
+    color: #2e318c;
+    display: inline;
+    margin-left: 3%;
+    margin-right: 50%;
+}
+.Visual_Marks {
+    display: inline;
+}
+.btn {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 18%;
+    background: #6648ec;
+    background-image: -webkit-linear-gradient(top, #6648ec, #312de9);
+    background-image: -moz-linear-gradient(top, #6648ec, #312de9);
+    background-image: -ms-linear-gradient(top, #6648ec, #312de9);
+    background-image: -o-linear-gradient(top, #6648ec, #312de9);
+    background-image: linear-gradient(to bottom, #6648ec, #312de9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 70px 15px 70px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #303b59;
+    background-image: -webkit-linear-gradient(top, #303b59, #303b59);
+    background-image: -moz-linear-gradient(top, #303b59, #303b59);
+    background-image: -ms-linear-gradient(top, #303b59, #303b59);
+    background-image: -o-linear-gradient(top, #303b59, #303b59);
+    background-image: linear-gradient(to bottom, #303b59, #303b59);
+    text-decoration: none;
+  }
+  .attribution {
+    margin-top: 10%;
+  }
